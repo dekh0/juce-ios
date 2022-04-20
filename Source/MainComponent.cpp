@@ -57,7 +57,6 @@ MainComponent::~MainComponent()
 static int numOfHarmonics = 6;
 bool processFlag = false;
 
-
 void MainComponent::sliderValueChanged(Slider *slider)
 {
     if(slider == &slider4){
